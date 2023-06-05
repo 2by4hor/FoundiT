@@ -1,0 +1,389 @@
+html {
+overflow: scroll;
+}
+
+.sidenav {
+height: 100%;
+width: 300px;
+position: absolute;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #00000;
+padding-top: 20px;
+}
+
+.logo {
+	padding-left: 8%;
+	padding-bottom: 15%;
+	padding-top: 15%;
+}
+
+.sidenav a {
+font-family: Visby-Bold;
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 25px;
+color: #FFFFFF;
+display: block; 
+
+}
+
+hr {
+width: 90%;
+border-top: 1px solid #111;
+}
+
+@font-face {
+    font-family: Visby-Bold;
+    src: url(Visby-Bold.otf);
+}
+  
+h2 {
+font-family: Visby-Bold;
+font-size: 40px;
+color: #FFFFFF;
+}
+
+.sidenav a:hover {
+color: #474644;
+}
+
+body {
+margin-left: 300px;
+background-color: #000000;
+}
+
+.main-overlay1 {
+display: inline-block;
+background-color: #1F1F1F;
+padding-bottom: 30px;
+padding-left: 40px;
+padding-right: 40px;
+width: 480px;
+margin-top: 5%;
+}
+
+.main-overlay1 h2 {
+align: left;
+font-size: 30px;
+}
+.main-overlay-tour {
+display: inline-block;
+background-color: #1F1F1F;
+padding-bottom: 30px;
+padding-left: 40px;
+padding-right: 40px;
+width: 580px;
+margin-top: 5%;
+}
+
+.main-overlay-tour h2 {
+align: left;
+font-size: 30px;
+}
+
+.mainMerch {
+display: inline-block;
+background-color: #1F1F1F;
+padding-bottom: 30px;
+padding-left: 40px;
+padding-right: 40px;
+width: 700px;
+margin-top: 5%;
+}
+
+.mainMerch h2 {
+align: left;
+font-size: 30px;
+}
+
+.mediaoverlay {
+display: inline-block;
+background-color: #1F1F1F;
+padding-bottom: 30px;
+padding-left: 40px;
+padding-right: 40px;
+width: 65%;
+margin-top: 5%;
+}
+
+.mediaoverlay h2 {
+align: left;
+font-size: 30px;
+
+}
+
+iframe {
+    display: inline-block;
+    width: 100%;
+}
+
+.ViewOlderButton {
+display: inline-block;
+color: white;
+}
+.ViewOlderButton a {
+display: inline-block;
+color: white;
+}
+
+.bandImages {
+position: absolute;
+width: 250px;
+left: 875px;
+padding-top: 4.25%;
+}
+.bandImages-tour {
+position: absolute;
+width: 250px;
+left: 975px;
+padding-top: 4.25%;
+}
+
+.bandImages-Merch {
+position: absolute;
+width: 250px;
+left: 1100px;
+padding-top: 4.25%;
+}
+
+.polaroid1 {
+-webkit-transform: rotate(2deg);
+  position: relative;
+  width: 220px;
+}
+.polaroid1 img {
+width: 220px;
+height: 100%;
+}
+.polaroid2 {	
+  margin-top: 14px;
+  -webkit-transform: rotate(-2deg);
+  position: relative;
+  width: 220px;
+}
+
+.polaroid2 img {
+width: 100%;
+height: 100%;
+}
+
+.polaroid3 {	
+
+  margin-top: 14px;
+  -webkit-transform: rotate(2deg);
+  position: relative;
+  width: 220px;
+}
+ 
+
+.polaroid3 img {
+width: 100%;
+height: 100%;
+}
+
+.polaroid4 {	
+padding-left: 8%;
+  margin-top: 14px;
+  -webkit-transform: rotate(-2deg);
+  position: relative;
+  width: 220px;
+}
+ 
+.polaroid4 img {
+width: 220px;
+height: 265px;
+}
+
+}
+
+}
+
+@media screen and (min-width: 10px) {
+@media screen and (max-width: 1199px) {
+	
+html {
+overflow: scroll;
+}
+
+.sidenav {
+height: 100%;
+width: 200px;
+position: absolute;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #000000;
+padding-top: 20px;
+}
+
+.logo {
+	padding-left: 8%;
+	padding-bottom: 15%;
+	padding-top: 15%;
+}
+
+.sidenav a {
+font-family: Visby-Bold;
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 25px;
+color: #FFFFFF;
+display: block; 
+
+}
+
+hr {
+width: 90%;
+border-top: 1px solid #111;
+}
+
+@font-face {
+    font-family: Visby-Bold;
+    src: url(Visby-Bold.otf);
+}
+  
+h2 {
+font-family: Visby-Bold;
+font-size: 40px;
+color: #FFFFFF;
+}
+
+.sidenav a:hover {
+color: #474644;
+}
+
+body {
+margin-left: 200px;
+background-color: #000000;
+}
+
+.main-overlay1 {
+display: inline-block;
+background-color: #1F1F1F;
+padding-bottom: 30px;
+padding-left: 40px;
+padding-right: 40px;
+width: 480px;
+margin-top: 5%;
+}
+
+.main-overlay1 h2 {
+align: left;
+font-size: 30px;
+
+}
+
+iframe {
+    display: inline-block;
+    width: 100%;
+}
+
+.ViewOlderButton {
+display: inline-block;
+color: FFFFFF;
+}
+
+.bandImages {
+position: absolute;
+width: 100px;
+left: 775px;
+padding-top: 4.25%;
+}
+
+.polaroid1 {
+-webkit-transform: rotate(2deg);
+  position: relative;
+  width: 220px;
+}
+.polaroid1 p {
+  visibility: hidden;
+}
+.polaroid1 img {
+  margin-bottom: -35px;
+  width: 125px;
+  height: 125px;
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+ 
+.polaroid2 {	
+  margin-top: 14px;
+  margin-bottom: -45px;
+  -webkit-transform: rotate(-2deg);
+  position: relative;
+  width: 220px;
+}
+
+.polaroid2 p {
+  visibility: hidden;
+}
+
+.polaroid2 img {
+  width: 125px;
+  height: 125px;
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+ 
+
+.polaroid3 {	
+
+  margin-top: 14px;
+  -webkit-transform: rotate(2deg);
+  position: relative;
+  width: 220px;
+}
+.polaroid3 p {
+  visibility: hidden;
+}
+ 
+.polaroid3 img {
+  width: 125px;
+  height: 125px;
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+ 
+
+.polaroid4 {	
+padding-left: 8%;
+  margin-top: 14px;
+  -webkit-transform: rotate(-2deg);
+  position: relative;
+  width: 220px;
+}
+.polaroid4 p {
+  visibility: hidden;
+}
+ 
+.polaroid4 img {
+  width: 125px;
+  height: 125px;
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+ 
+
+}
+
+
+}
+
+
+
+
+

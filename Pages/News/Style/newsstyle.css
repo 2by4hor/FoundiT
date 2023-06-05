@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Visby-Bold;
+    src: url(Font/Visby-Bold.otf);
+}
+
+@font-face {
+    font-family: Visby-Light;
+    src: url(Font/Visby-Light.otf);
+}
+
+
+h1 {
+font-size: 30px;
+position: relative;
+color: #FFFFFF;
+font-family: Visby-Bold;
+align: left;
+}
+
+img {
+float: left;
+margin-top: 12px;
+background: #141414;
+padding: 4px;
+}
+
+p {
+color: #FFFFFF;
+position: relative;
+font-family: Visby-Light;
+}
+
+.postedby {
+margin-top: -4%;
+font-size: 12px;
+color: grey;
+}
+
+body {
+padding-left: 20px;
+overflow: hidden;
+}
+
+@media screen and (min-width: 400px) {
+@media screen and (max-width: 520px) {
+	
+iframe {
+	width: 420px;
+	height: 220px;
+	}
+	
+}
+}
+
+@media screen and (min-width: 520px) {
+@media screen and (max-width: 650px) {
+	
+iframe {
+	width: 520px;
+	height: 320px;
+	}
+	
+}
+}
